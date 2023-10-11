@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: javajava-java-sample-0qwv
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-nokh-tenant/e2e-java/javajava-java-sample-0qwv@sha256:f3e7dce92bf9a7a818ba003ff0be0d9a05b9362c0fe843e0c6b0d74d94e7d790
+        name: my-java-springboot
+        resources: {}
+status: {}
